@@ -11,6 +11,9 @@ set :branch, 'master'
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/var/www/oauth2-test-server'
 
+set :rvm_type, :auto
+set :rvm_ruby_version, '2.2.0'
+
 # Default value for :scm is :git
 # set :scm, :git
 
