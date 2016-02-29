@@ -45,4 +45,4 @@ group :development, :test do
 end
 
 gem 'devise'
-gem 'doorkeeper', github: 'riijen/doorkeeper'
+gem 'doorkeeper', '4.0.0.rc2', github: 'riijen/doorkeeper'
