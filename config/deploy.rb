@@ -12,7 +12,7 @@ set :branch, 'master'
 set :deploy_to, '/var/www/oauth2-test-server'
 
 set :rvm_type, :auto
-set :rvm_ruby_version, '2.2.0'
+# set :rvm_ruby_version, '2.2.0'
 
 # Default value for :scm is :git
 # set :scm, :git

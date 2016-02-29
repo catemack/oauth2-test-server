@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/riijen/doorkeeper.git
+  revision: 92965f98cb21aa2d6232b29ac6469cb6b51709e6
+  specs:
+    doorkeeper (4.0.0.rc1)
+      railties (>= 4.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -71,8 +78,6 @@ GEM
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
-    doorkeeper (3.0.0)
-      railties (>= 3.2)
     erubis (2.7.0)
     execjs (2.6.0)
     globalid (0.3.6)
@@ -182,7 +187,7 @@ DEPENDENCIES
   capistrano-rvm
   coffee-rails (~> 4.1.0)
   devise
-  doorkeeper
+  doorkeeper!
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.1)
